@@ -28,7 +28,7 @@ def require_auth():
 def healthz(): return jsonify(status='ok')
 
 ANCHOR=date(2026,11,2)
-TYPES={'Natación Máster','Natación hijo','Running','Triatlón','Otro'}
+TYPES={'Natación Máster','Natación hijo','Running','Triatlón','Conciertos','Otro'}
 STATES={'Me interesa','Pendiente','Inscrito','Pagado','Confirmado','Cancelado','Completado'}
 
 class PGConnection:
